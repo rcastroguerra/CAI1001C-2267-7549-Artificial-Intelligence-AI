@@ -16,14 +16,14 @@ Go through the content under the tabs below. Click the tabs from left to right.
 
 ##### [Expand](#092285)
 
-Go through the content under the tabs below. Click the tabs from left to right.
+##### [Evaluate](#247937)
 
-- **Explore**
-- **Expand**
-- **Evaluate**
-- **Discuss 1**
-- **Discuss 2**
-- **Engage**
+##### [Discuss 1](#086985)
+
+##### [Discuss 2](#341105)
+
+##### [Engage](#codigo)
+
 
 ---
 
@@ -85,4 +85,156 @@ Here are some activities to explore:
 - <a href="https://www.tensorflow.org/js" target="_blank">
     TensorFlow.js
 </a>
+
+<h1 id="247937" style="color:#E65100;">
+  <a href="#Lesson_1_Demystifying_AI_and_the_Evolution_of_AI" style="color:inherit; text-decoration:none;">
+    Evaluate
+  </a>
+</h1>
+
+# Quiz: The Basics of AI
+
+This quiz will evaluate your knowledge about the history of AI and its foundational concepts.
+
+
+---
+
+Great going! Having tested your knowledge of the basics of AI, participate in a discussion to further reinforce what you have learned.
+
+## Question 1
+**1 pts**
+
+Which is true for AI?
+
+- [ ] AI adds intelligence to existing products
+- [ ] AI automates repetitive learning
+- [x] Both of the above
+- [ ] None of the above
+
+## Question 2
+**1 pts**
+
+Examples of AI that most people use in everyday life include email spam filters, photo face-tagging, and turn-by-turn navigation.
+
+- [x] True
+- [ ] False
+
+## Question 3
+**1 pts**
+
+What is the Turing Test?
+
+- [ ] A test to determine if a computer can think like a human
+- [ ] A test to measure a computer's processing speed
+- [x] A test to check a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human
+- [ ] A test to determine if a machine can perform calculations faster than a human
+
+## Question 4
+**1 pts**
+
+When an AI recommendation system suggests a movie or product, what is the most accurate description of what it is doing?
+
+- [ ] It is thinking and choosing the way a human friend would.
+- [x] It is matching patterns from large amounts of historical data to predict what you might want.
+- [ ] It is following a predetermined script written by an engineer.
+- [ ] It is asking a database of facts about movies and returning the top result.
+
+## Question 5
+**1 pts**
+
+Cognitive abilities enable machines to learn, train, and solve problems independently.
+
+- [x] True
+- [ ] False
+
+## Question 6
+**1 pts**
+
+A chip is a complex device that forms the brains of every computing system.
+
+- [x] True
+- [ ] False
+
+## Question 7
+**1 pts**
+
+Automation means designing a software or hardware which is capable of automatically doing things without any form of human intervention.
+
+- [x] True
+- [ ] False
+
+## Question 8
+**1 pts**
+
+Machine Independence can be considered a Critical differentiator between AI and not-AI.
+
+- [x] True
+- [ ] False
+
+
+## Question 9
+**1 pts**
+
+Cloud storage is widely used today to host the very large datasets that modern AI systems are trained on.
+
+- [x] True
+- [ ] False
+
+## Question 10
+**1 pts**
+
+Which of the following best describes algorithmic bias?
+
+- [x] Systematic and unfair errors in an AI system that disadvantage particular groups of people.
+- [ ] Any time an AI gets a wrong answer.
+- [ ] Personal preferences of the engineers who built the AI.
+- [ ] A bug in the AI code that needs to be patched.
+
+
+<h1 id="086985" style="color:#E65100;">
+  <a href="#Lesson_1_Demystifying_AI_and_the_Evolution_of_AI" style="color:inherit; text-decoration:none;">
+    Discuss 1
+  </a>
+</h1>
+
+# What is AI?
+
+Please provide your thoughts on this [discussion board](#). The discussion forum will open in a new window. Close the window to come back to this lesson screen.
+
+
+# What is AI?
+
+---
+
+**Raydel Castro Guerra**  
+*Aug 28, 2:01am*
+
+---
+
+Artificial Intelligence is a technology that allows computers and machines to perform tasks that normally require human intelligence. These tasks can include learning from data, such as recognizing patterns, understanding language, solving problems, and making decisions.
+
+Today, AI is already part of many of the things we use every day.
+
+For example, we can find AI in search engines, social networks, recommendation systems, virtual assistants, navigation applications, and online shopping. When a streaming service recommends a movie to us or when a navigation app suggests a faster route, AI can participate in the analysis of information and in the prediction of what could be useful to the user. Tools like ChatGPT are another example, because they can understand questions and generate answers based on patterns learned from large amounts of information.
+
+I think one of the most interesting things about AI is its ability to learn from data. The more information an AI system can analyze, the better it can identify patterns or make accurate predictions. This can be very useful in areas such as business, health, education, finance, transport, etc.
+
+I believe, at the same time, AI has some limitations and risks. AI does not necessarily understand information in the same way as a person and, at times, can provide incorrect or biased results. For this reason, people should not automatically trust everything it produces.
+
+In general, I see Artificial Intelligence as a powerful tool that can help people solve problems and work more efficiently.
+
+<h1 id="341105" style="color:#E65100;">
+  <a href="#Lesson_1_Demystifying_AI_and_the_Evolution_of_AI" style="color:inherit; text-decoration:none;">
+    Discuss 2
+  </a>
+</h1>
+
+# The Turing Test and Its Implications
+
+Please provide your thoughts on this [discussion board](#). The discussion forum will open in a new window. Close the window to come back to this lesson screen.
+
+
+
+
+
 
