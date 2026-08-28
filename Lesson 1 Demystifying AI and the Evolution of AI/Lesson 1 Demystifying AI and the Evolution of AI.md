@@ -63,7 +63,7 @@ It is both interesting and important to understand the development of AI over ti
     Anyoha-SITN-Figure-2-AI-timeline
 </a>
 
-- <a href="./pdf/A Brief History of Artificial Intelligence.pdf" target="_blank">
+- <a href="./pdf/A%20Brief%20History%20of%20Artificial%20Intelligence.pdf" target="_blank">
     A Brief History of Artificial Intelligence
 </a>
 
