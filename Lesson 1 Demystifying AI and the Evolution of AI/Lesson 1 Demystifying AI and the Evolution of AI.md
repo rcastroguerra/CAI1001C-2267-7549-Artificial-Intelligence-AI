@@ -22,7 +22,7 @@ Go through the content under the tabs below. Click the tabs from left to right.
 
 ##### [Discuss 2](#341105)
 
-##### [Engage](#codigo)
+##### [Engage](#562931)
 
 
 ---
@@ -234,7 +234,28 @@ In general, I see Artificial Intelligence as a powerful tool that can help peopl
 Please provide your thoughts on this [discussion board](#). The discussion forum will open in a new window. Close the window to come back to this lesson screen.
 
 
+---
 
+**Raydel Castro Guerra**  
+*Aug 28, 2026*
+
+---
+
+The test was created by Alan Turing. The Turing Test is a way to determine whether a computer or an artificial intelligence can communicate with a person well enough to seem human. The basic idea is that a person has a conversation with two participants but does not know which of them is a human being and which is a computer. If the person cannot distinguish between the human and the computer based solely on the conversation, the computer is considered to have passed the Turing Test.
+
+The test is mainly about measuring how well a machine can imitate human communication. This does not necessarily mean that the computer actually thinks or understands things the way a human being does. A computer could give very convincing answers without having human emotions or experiences. I think this is one of the interesting things about the Turing Test, because it makes us think about what it really means for a machine to be intelligent.
+
+If a chatbot could pass the Turing Test so well that people believed it was human, I think one positive change would be better customer service. For example, a chatbot could help customers at any time of the day, answer questions, and solve simple problems without making people wait for a real employee.
+
+However, there could also be a serious problem. People might trust the chatbot too much because they think they are talking to a real person. Someone could use this technology to mislead people, spread false information, or pretend to be someone else. Because of this, I think it would be important for people to know when they are communicating with an AI. AI can be very useful, but it should be used responsibly.
+
+---
+
+<h1 id="562931" style="color:#E65100;">
+  <a href="#Lesson_1_Demystifying_AI_and_the_Evolution_of_AI" style="color:inherit; text-decoration:none;">
+    Engage
+  </a>
+</h1>
 
 
 
