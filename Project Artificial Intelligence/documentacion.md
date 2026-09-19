@@ -248,7 +248,6 @@ Fila 1:
 
 Entrar a:
 
-<https://www.glideapps.com>
 
 ## Crear proyecto
 
@@ -376,15 +375,7 @@ Spot_Available
 95%
 ```
 
----
 
-## Caso 3: Lluvia o Sombra Fuerte
-
-Resultado esperado:
-
-```text
-Status Unclear
-```
 
 ---
 
@@ -434,6 +425,6 @@ Con este proceso tendrás un proyecto **no-code funcional** utilizando:
 
 - Google Teachable Machine (IA)
 - Google Sheets (Base de datos)
-- Glide (Aplicación móvil)
+- Bolt (Aplicación móvil)
 
 Todo alineado con los requisitos del curso **CAI1001C: Introduction to AI Thinking**.

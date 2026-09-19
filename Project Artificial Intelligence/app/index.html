@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#003e70" />
+    <title>SharkPark | Smart Stall Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .availability-orb { border-color: #54d3aa; transition: border-color .3s ease; }
+      .availability-green { border-color: #54d3aa; border-right-color: #255d88; }
+      .availability-yellow { border-color: #f1bd3e; border-right-color: #8f6a1e; }
+      .availability-red { border-color: #ef6a58; border-right-color: #8c3730; }
+    </style>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="SharkPark home"><span class="brand-mark">S</span><span>Shark<span>Park</span></span></a>
+        <div class="campus"><span class="pulse"></span>MDC Homestead Campus</div>
+        <button class="icon-button" id="refreshBtn" aria-label="Refresh dashboard">↻</button>
+      </header>
+
+      <section class="hero" id="top">
+        <div>
+          <p class="eyebrow">LIVE PARKING INTELLIGENCE</p>
+          <h1>Find your spot.<br /><em>Start on time.</em></h1>
+          <p class="intro">A smarter view of parking availability at Miami Dade College Homestead.</p>
+        </div>
+        <div class="availability-orb availability-green" aria-label="Parking availability percentage">
+          <strong id="availabilityPercent">35%</strong><span>spaces available</span>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Parking overview">
+        <article><span class="stat-icon blue">▦</span><div><strong id="totalSpaces">125</strong><span>Spaces monitored</span></div></article>
+        <article><span class="stat-icon mint">✓</span><div><strong id="availableSpaces">45</strong><span>Available now</span></div></article>
+        <article><span class="stat-icon coral">●</span><div><strong id="occupiedSpaces">80</strong><span>Currently occupied</span></div></article>
+      </section>
+
+      <section class="content-grid">
+        <section class="panel lots-panel">
+          <div class="section-heading"><div><p class="eyebrow">LOT STATUS</p><h2>Where to park</h2></div><span class="updated">Updated <span id="lastUpdated">just now</span></span></div>
+          <div id="lotList" class="lot-list"></div>
+          <div class="legend"><span><i class="dot open"></i>Plenty available</span><span><i class="dot limited"></i>Limited</span><span><i class="dot full"></i>Nearly full</span></div>
+        </section>
+
+        <section class="panel scanner-panel">
+          <div class="section-heading"><div><p class="eyebrow">AI SCANNER</p><h2>Check a parking spot</h2></div><span class="model-status" id="modelStatus">Loading AI…</span></div>
+          <p class="scanner-copy">Upload a clear image of one parking space or use your camera. SharkPark will identify if it is open.</p>
+          <label class="zone-select">Parking zone <select id="zoneSelect"><option>Lot 1 - North</option><option>Lot 2 - South</option><option>Lot 3 - East</option></select></label>
+          <div class="upload-area" id="dropArea">
+            <input id="imageInput" type="file" accept="image/*" capture="environment" />
+            <div id="emptyUpload"><span class="upload-icon">↑</span><strong>Drop a photo here</strong><small>or tap to browse your device</small></div>
+            <img id="preview" alt="Parking space preview" hidden />
+          </div>
+          <div class="scan-actions"><button class="secondary-btn" id="cameraBtn">Use camera</button><button class="primary-btn" id="analyzeBtn" disabled>Analyze spot <span>→</span></button></div>
+          <div class="camera-wrap" id="cameraWrap" hidden><video id="camera" autoplay playsinline></video><button id="captureBtn">Capture photo</button></div>
+          <div class="result" id="result" hidden></div>
+        </section>
+      </section>
+
+      <section class="panel recent-panel">
+        <div class="section-heading"><div><p class="eyebrow">RECENT SCANS</p><h2>Activity</h2></div><button class="text-btn" id="clearBtn">Clear history</button></div>
+        <div id="scanHistory" class="scan-history"></div>
+      </section>
+
+      <section class="team-section" aria-labelledby="teamTitle">
+        <div><p class="eyebrow">PROJECT TEAM</p><h2 id="teamTitle">Created by four MDC students</h2></div>
+        <div class="team-grid">
+          <article class="student-card featured-student">
+            <img src="img/Raydel%20Castro%20Guerra.jpg" alt="Raydel Castro Guerra" />
+            <div><strong>Raydel Castro Guerra</strong><span>Data Analyst & Web Developer</span></div>
+          </article>
+          <article class="student-card placeholder-student"><span>02</span>
+            <div><strong>Leover</strong><span>Project Manager & Systems Designer</span></div>
+          </article>
+          <article class="student-card placeholder-student"><span>03</span>
+            <div><strong>Cristian B.</strong><span>Student contributor</span></div>
+          </article>
+          <article class="student-card placeholder-student"><span>04</span>
+            <div><strong>Patrick</strong><span>Student contributor</span></div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="safety"><span>⚠</span><p><strong>Safety first.</strong> Do not operate or interact with this app while driving. Check availability before operating your vehicle.</p></aside>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
