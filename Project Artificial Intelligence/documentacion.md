@@ -6,6 +6,10 @@
 
 ## 1. Recolectar fotografías
 
+Data utilizada
+
+[CNRPark+EXT](http://cnrpark.it/)
+
 Toma fotografías de espacios de estacionamiento desde varios ángulos.
 
 Debes crear **2 carpetas**:
@@ -344,12 +348,7 @@ Si Spot_Occupied > 85%
 → Mostrar TAKEN (Red)
 ```
 
-## Baja Confianza
 
-```text
-Si Confidence < 85%
-→ Mostrar STATUS UNCLEAR
-```
 
 ---
 
