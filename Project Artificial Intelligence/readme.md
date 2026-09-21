@@ -304,6 +304,33 @@ The database is used to:
 +---------------------------+
 ```
 
+```mermaid
+flowchart TD
+
+    A["👨‍🎓 Student"]
+    B["🌐 SharkPark Web Application"]
+    C["🤖 Google Teachable Machine<br/>AI Classification Model"]
+    D["📊 Prediction Result<br/><br/>Spot_Occupied<br/>Spot_Available<br/>Confidence Score"]
+    E["📗 Google Sheets Database"]
+    F["📈 Statistics Dashboard"]
+    G["👨‍🎓 Student Views Results"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style B fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style C fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style D fill:#fff8e1,stroke:#f9a825,stroke-width:2px
+    style E fill:#e0f7fa,stroke:#00838f,stroke-width:2px
+    style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style G fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+```
+
 ---
 
 # Frontend
