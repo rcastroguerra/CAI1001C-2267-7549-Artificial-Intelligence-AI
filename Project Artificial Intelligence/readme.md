@@ -6,21 +6,25 @@
 **SharkPark: MDC Homestead Smart Stall Monitor**
 
 ### Students
-**Raydel Castro** Data Analyst & Web Developer
 
-**Leover Perez Solis** Project Manager & Systems Designer
+**Raydel Castro** – Data Analyst & Web Developer
 
-**Cristian E. Barrera** AI Project Management
+**Leover Perez Solis** – Project Manager & Systems Designer
 
-**Patrick Conyers** Quality Assurance & Testing Specialist
+**Cristian E. Barrera** – AI Project Management
+
+**Patrick Conyers** – Quality Assurance & Testing Specialist
 
 ### Institution
+
 **Miami Dade College - Homestead Campus**
 
 ### Project Type
+
 **No-Code Artificial Intelligence Application**
 
 ### Target Audience
+
 Students, faculty, and commuters arriving at Miami Dade College Homestead Campus during peak class periods, especially around **8:30 AM** and **5:30 PM**.
 
 ### No-Code Technology Stack
@@ -63,17 +67,36 @@ Develop an Artificial Intelligence system capable of classifying parking spaces 
 
 ---
 
-## Data Collection
+# Data Collection
 
-Photos were collected from MDC Homestead parking lots during different times of the day and under different lighting conditions.
+## Dataset Source
 
-### Dataset Classes
+The SharkPark project utilized the **CNRPark+EXT Dataset**, a publicly available parking occupancy dataset used for computer vision and smart parking research.
 
-#### Spot_Occupied
+### Dataset Website
+
+http://cnrpark.it/
+
+### Dataset Advantages
+
+- Thousands of parking-space images.
+- Occupied parking-space samples.
+- Available parking-space samples.
+- Different lighting conditions.
+- Different weather conditions.
+- Real-world parking scenarios.
+
+The dataset was used to train and validate the SharkPark Artificial Intelligence model.
+
+---
+
+## Dataset Classes
+
+### Spot_Occupied
 
 **Number of Images:** 2,000+
 
-**Visual Characteristics**
+#### Visual Characteristics
 
 - Compact cars
 - Sedans
@@ -81,17 +104,17 @@ Photos were collected from MDC Homestead parking lots during different times of 
 - Pickup trucks
 - Vehicles parked within parking lines
 
-**Purpose**
+#### Purpose
 
 Train the AI model to identify occupied parking spaces.
 
 ---
 
-#### Spot_Available
+### Spot_Available
 
 **Number of Images:** 2,000+
 
-**Visual Characteristics**
+#### Visual Characteristics
 
 - Empty asphalt
 - Parking lines
@@ -99,7 +122,7 @@ Train the AI model to identify occupied parking spaces.
 - Oil stains
 - Parking spaces covered by shadows without vehicles
 
-**Purpose**
+#### Purpose
 
 Train the AI model to identify available parking spaces.
 
@@ -200,6 +223,10 @@ The retrained model successfully learned to distinguish shadows from actual vehi
 
 Google Sheets serves as the central data collection repository for SharkPark. Each time a parking-space image is analyzed by the AI model, the classification result is stored in the database.
 
+### Database Link
+
+https://docs.google.com/spreadsheets/d/1eggKEPsVeZjnHLcCMesufamH3mj6PnWDOq6SRob142Y/edit?gid=1415101545#gid=1415101545
+
 ### Google Sheets Structure
 
 | Column | Description |
@@ -279,11 +306,15 @@ The database is used to:
 
 ---
 
-## Frontend
+# Frontend
 
-### SharkPark Web Application
+## SharkPark Web Application
 
 The SharkPark application is a responsive web application created with the assistance of ChatGPT and connected to the Google Sheets database.
+
+### Web Application URL
+
+https://rcastroguerra.github.io/CAI1001C-2267-7549-Artificial-Intelligence-AI/
 
 ### Main Features
 
@@ -404,6 +435,24 @@ The model correctly classified the parking space as Spot_Available with 95% conf
 
 ---
 
+# Testing Evidence
+
+## Occupied Space Classification
+
+<img src="./img/ocupado.png" width="800"></img>
+
+The image above shows the Teachable Machine model successfully classifying an occupied parking space.
+
+---
+
+## Available Space Classification
+
+<img src="./img/vacio.png" width="800"></img>
+
+The image above shows the Teachable Machine model successfully classifying an available parking space.
+
+---
+
 # Bias and Fairness Analysis
 
 ## Angle and Lighting Bias
@@ -463,11 +512,22 @@ A permanent notice appears within the application:
 
 # Live AI Model Demonstration
 
-### Teachable Machine Model
+## Teachable Machine Model
 
 https://teachablemachine.withgoogle.com/models/-nQdOh3--/
 
 Users can upload an image or use a webcam to determine whether a parking space is occupied or available. The AI returns a confidence score and stores the result in the SharkPark database.
+
+---
+
+# Team Roles and Responsibilities
+
+| Team Member | Role |
+|-------------|------|
+| Raydel Castro | Data Analyst & Web Developer |
+| Leover Perez Solis | Project Manager & Systems Designer |
+| Cristian E. Barrera | AI Project Management |
+| Patrick Conyers | Quality Assurance & Testing Specialist |
 
 ---
 
@@ -503,6 +563,21 @@ Potential future enhancements include:
 - Live parking maps.
 - Historical occupancy analytics.
 - Expansion to additional MDC campuses.
+
+---
+
+# Project Deliverables
+
+The SharkPark project successfully produced:
+
+1. AI Computer Vision Model.
+2. Trained Google Teachable Machine Classifier.
+3. Google Sheets Database Repository.
+4. Web Application.
+5. Real-Time Parking Dashboard.
+6. Parking Occupancy Reporting System.
+7. Testing and Validation Results.
+8. Complete Project Documentation.
 
 ---
 
